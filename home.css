@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border:none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color:#eff2f9;
+}
+
+.main-container {
+    height: 90px;
+    width: 100%;
+}
+
+.home-page-main-container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.humburger {
+    font-size: 25px;
+    border: 1px solid white;
+    background-color: #fff;
+    color: gray;
+    border-radius: 4px;
+    padding: 6px;
+    width: 40px;
+    height: 40px;
+}
+
+.notification {
+    border: 1px solid white;
+    background-color: #fff;
+    color: gray;
+    border-radius: 4px;
+    padding: 6px;
+    width: 40px;
+    height: 40px;
+}
+
+.notification i {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.payment-cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.profile-img-wrapper {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+.profile-img-wrapper img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.profile-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-detail span:first-child{
+    font-size: 20px;
+    color: #092c9f;
+    margin-bottom: 5px;
+}
+
+.profile-detail span:last-child{
+    font-size: 16px;
+    font-weight: 300;
+    color: #a2a2a3;
+}
+
+.money-detail {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.money-detail-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-money-wrapper .money-first-detail {
+    font-size: 15px;
+    color: #a2a2a3;
+    margin-bottom: 5px;
+}
+
+.profile-money-wrapper .money-first-detail span {
+    color:#092c9f;
+    margin-left: 5px;
+}
+
+.see-detail button {
+    padding: 12px;
+    background-color: #092c9f;
+    border-radius: 5px;
+}
+
+.see-detail button i {
+    font-size: 16px;
+    color: #fff;
+}
+.debit-card{
+    width: 30%;
+    margin: 0 auto;
+    margin-left: 10px;
+    background-color: #f8f9fb;
+    border-radius: 10px;
+    padding: 60px;
+    margin-top: 18px;
+    display: flex;
+    align-items: left;
+}
+.debit-card-child{
+    font-size: 8px;
+    text-align: 30;
+}
+.debit-card-first{
+    width: 10%;
+    background-color: #092c9f;
+    padding: 60px;
+    margin-top: 18px;
+    display: flex;
+    /* align-items: right;
+    text-align: left; */
+    justify-content: space-between;
+}

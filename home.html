@@ -5,67 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
+    <link rel="stylesheet" href="home.css">
     <title>Home Page</title>
 </head>
 
 <body>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        /* .container-fluid {
-            text-align: center;
-            height: 100vh;
-        }
-
-        .container-fluid .humburger {
-            text-align: left;
-            display: flex; */
-
-        .main-container {
-            height: 90px;
-            width: 100%;
-            background-color: burlywood;
-        }
-
-        .home-page-main-container {
-            width: 90%;
-            height: 100%;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-        }
-
-        .humburger {
-            font-size: 25px;
-            border: 1px solid white;
-            background-color: #fff;
-            color: gray;
-            border-radius: 4px;
-            padding: 6px;
-            width: 40px;
-            height: 40px;
-        }
-
-        .notification {
-            font-size: 25px;
-            border: 1px solid white;
-            background-color: #fff;
-            color: gray;
-            border-radius: 4px;
-            padding: 6px;
-            width: 40px;
-            height: 40px;
-        }
-    </style>
     <header class="main-container">
         <div class="home-page-main-container">
             <nav>
@@ -78,12 +24,42 @@
                     <i class="fas fa-bell"></i>
                 </button>
             </div>
-
         </div>
-
+        <div class="payment-cards">
+            <div class="profile-img-wrapper">
+                <img src="./images.jpeg" alt="profile">
+            </div>
+            <div class="profile-detail">
+                <span class="user-name">Hi, Alfred</span>
+                <span>Good Morning</span>
+            </div>
+        </div>
+        <div class="money-detail">
+            <div class="money-detail-container">
+                <div class="profile-money-wrapper">
+                    <div class="money-first-detail">
+                        <span>Alfred</span>, you have now
+                    </div>
+                    <div class="money-first-detail">
+                        <span>150$</span> 1min ago
+                    </div>
+                </div>
+                <div class="see-detail">
+                    <button><i class="fas fa-arrow-alt-circle-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="main-debit-card"></div>
+        <div class="debit-card">
+            <div class="debit-card-child">
+                <p>VALID</p>
+            </div>
+        </div>
+        <div class="debit-card-first">
+            <p>ji</p>
+        </div>
     </header>
     </script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 </body>
 
 </html>
