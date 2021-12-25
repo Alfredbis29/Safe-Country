@@ -1,0 +1,9 @@
+.a {
+  text-decoration: none;
+}
+.main-container {
+  height: 100vh;
+}
+.main-container .main-content-wrapper {
+  height: 100%;
+}
