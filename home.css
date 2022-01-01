@@ -143,7 +143,7 @@ body {
 }
 .debit-card-child{
     font-size: 8px;
-    text-align: 30;
+   text-align: left;
 }
 .debit-card-first{
     width: 10%;
