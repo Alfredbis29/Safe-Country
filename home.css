@@ -142,9 +142,7 @@ body {
     align-items: left;
 }
 .debit-card-child{
-    font-size: 8px;
-   text-align: left;
-}
+    font-size: 8px;}
 .debit-card-first{
     width: 10%;
     background-color: #092c9f;
