@@ -130,7 +130,7 @@ body {
     font-size: 16px;
     color: #fff;
 }
-.debit-card{
+/* .debit-card{
     width: 30%;
     margin: 0 auto;
     margin-left: 10px;
@@ -144,11 +144,153 @@ body {
 .debit-card-child p{
    color: brown;
    display:flex;
-   text-align: right;
 }
 .debit-card-first{
     width: 10%;
     background-color: #092c9f;
     padding: 60px;
     margin-top: 18px;
+} */
+.debit-card{
+    margin-top: 15px;
+    height: max-content;
+    width: 40%;
+    background-color: #f8f9fb;
+    border-radius: 20px;
 }
+
+#card-image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.debit-card-child{
+   color: brown;
+   text-align: right;
+}
+.debit-card-first{
+    margin-top: 15px;
+    width: 40%;
+    border-radius: 20px;
+    height: max-content;
+}
+
+.main-debit-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-words{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+#main-words a{
+    text-decoration: none;
+    color: #092c9f;
+    font-weight: bold;
+}
+
+.cards{
+    display: flex;
+    margin: 5px;
+    justify-content: space-around;
+}
+
+#card{
+    margin-top: 8px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    background-color: rgb(155, 151, 151);
+}
+
+#img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
+
+.big-card{
+    width: 100%;
+    height: 140px;
+    border-radius: 15px;
+    background-color: rgb(62, 62, 177);
+    margin: 0 auto;
+}
+
+.momopay{
+    text-align: center;
+    margin-top: 30px;
+    width: 50%;
+    border-radius: 20px;
+    height: max-content;
+    background-color: red;
+}
+
+#footer{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(155, 151, 151);
+    border-radius: 10px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#icon{
+    padding: 9px;
+    margin-top: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 45px;
+}
+
+
+
+
+
+@media only screen and (max-width:992px){
+    .main-debit-card{
+        margin: 15px;
+    }
+
+    .debit-card{
+        margin-right: 20px;
+    }
+
+    body{
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #card{
+        height: 90px;
+        width: 90px;
+        border-radius: 9px;
+    }
+
+    .cards{
+        width: max-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-area: 60px;
+    }
+
+    #card{
+        margin: 8px;
+    }
+    .big-card{
+        margin: 0 auto;
+    }
+
+}
+
