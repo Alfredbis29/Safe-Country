@@ -141,15 +141,14 @@ body {
     display: flex;
     align-items: left;
 }
-.debit-card-child{
-    font-size: 8px;}
+.debit-card-child p{
+   color: brown;
+   display:flex;
+   text-align: right;
+}
 .debit-card-first{
     width: 10%;
     background-color: #092c9f;
     padding: 60px;
     margin-top: 18px;
-    display: flex;
-    /* align-items: right;
-    text-align: left; */
-    justify-content: space-between;
 }
