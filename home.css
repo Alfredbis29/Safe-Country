@@ -226,12 +226,14 @@ body {
 }
 
 .momopay{
-    text-align: center;
-    margin-top: 30px;
-    width: 50%;
-    border-radius: 20px;
+    width: 60%;
+    margin: 0 auto;
     height: max-content;
-    background-color: red;
+}
+#imgmomo{
+    width: 100%;
+    border-radius: 10px;
+    height: 140px;
 }
 
 #footer{
